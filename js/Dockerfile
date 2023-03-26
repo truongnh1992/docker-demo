@@ -1,5 +1,5 @@
 # Use an official Node runtime as the parent image
-FROM node:10
+FROM node:10-alpine
 # Set the working directory in the container to /app
 WORKDIR /app
 # Copy the current directory contents into the container at /app
