@@ -21,6 +21,6 @@ func main() {
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving request: %s", r.URL.Path)
-	fmt.Fprintf(w, "Hello QuanQuanGCP Season 5\n")
+	fmt.Fprintf(w, "Hello I/O Extended Sydney\n")
 	fmt.Fprintf(w, "Version: 2.0.0\n")
 }
