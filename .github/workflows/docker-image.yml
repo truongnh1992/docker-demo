@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image:${{ steps.commit.outputs.short }}
+      run: docker build . --file go/Dockerfile -t my-image:${{ steps.commit.outputs.short }}
